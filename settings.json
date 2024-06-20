@@ -1,0 +1,73 @@
+{
+    "editor.bracketPairColorization.enabled": false,
+    "update.mode": "manual",
+
+    "workbench.colorCustomizations": {
+        "editor.selectionBackground": "#13556471",
+        "editor.selectionHighlightBackground": "#13556471",
+        "editor.background": "#0e121f6b"
+    },
+    "editor.tokenColorCustomizations": {
+        "comments": "#125D0D",
+        "keywords": "#9e9180",
+        "functions": "#d3d2d2",
+        "variables": "#ffffff",
+        "strings": "#d1d0c0",
+        "numbers": "#c2af97",
+        "types": "#e0ccbb",
+        "textMateRules": [{
+            "scope": "keyword.operator",
+            "settings": {
+                "foreground": "#a3a3a3"
+            }
+        }, {
+            "scope": "support.type.property-name",
+            "settings": {
+                "foreground": "#aca9a9"
+            }
+        },
+        {
+            "scope": "keyword.operator.new",
+            "settings": {
+                "foreground": "#cfccbb"
+            }
+        },
+        {
+            "scope": "variable.other.constant",
+            "settings": {
+                "foreground": "#ffffff"
+            }
+        },
+        {
+            "scope": "variable.other.enummember",
+            "settings": {
+                "foreground": "#fcf9ef"
+            }
+        },
+        {
+            "scope": "constant.language",
+            "settings": {
+                "foreground": "#ffffff"
+            }
+        },
+        {
+            "scope": "support.variable",
+            "settings": {
+                "foreground": "#a3a3a3"
+            }
+        },
+        {
+            "scope": "storage.modifier",
+            "settings": {
+                "foreground": "#c5c4b5"
+            }
+        },
+        {
+            "scope": "keyword.operator.expression",
+            "settings": {
+                "foreground": "#7e7e7e"
+            }
+        }
+    ]
+    },
+}
