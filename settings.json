@@ -67,6 +67,36 @@
             "settings": {
                 "foreground": "#7e7e7e"
             }
+        },
+        {
+            "scope": "variable.language",
+            "settings": {
+                "foreground": "#a7a7a7"
+            }
+        },
+        {
+            "scope": "entity.name.namespace",
+            "settings": {
+                "foreground": "#aaa191"
+            }
+        },
+        {
+            "scope": "entity.name.function.preprocessor",
+            "settings": {
+                "foreground": "#bbbbbb"
+            }
+        },
+        {
+            "scope": "entity.name.tag",
+            "settings": {
+                "foreground": "#d4cdab"
+            }
+        },
+        {
+            "scope": "entity.other.attribute-name",
+            "settings": {
+                "foreground": "#f5ddb2"
+            }
         }
     ]
     },
