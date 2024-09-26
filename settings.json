@@ -39,6 +39,18 @@
             }
         },
         {
+            "scope": "keyword.other.using",
+            "settings": {
+                "foreground": "#8f8f8f"
+            }
+        },
+        {
+            "scope": "keyword.operator.delete",
+            "settings": {
+                "foreground": "#8f8f8f"
+            }
+        },
+        {
             "scope": "variable.other.enummember",
             "settings": {
                 "foreground": "#fcf9ef"
@@ -95,9 +107,22 @@
         {
             "scope": "entity.other.attribute-name",
             "settings": {
-                "foreground": "#f5ddb2"
+                "foreground": "#776f5f"
+            }
+        },
+        {
+            "scope": "meta.preprocessor",
+            "settings": {
+                "foreground": "#d6d6d6"
+            }
+        },
+        {
+            "scope": "punctuation",
+            "settings": {
+                "foreground": "#cfcfcf"
             }
         }
     ]
     },
+    "editor.minimap.enabled": false,
 }
