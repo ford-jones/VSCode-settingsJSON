@@ -1,11 +1,23 @@
-{
+ {
+    "editor.minimap.enabled": false,
+    "workbench.statusBar.visible": false,
+    "workbench.editor.showTabs": "none",
+    "C_Cpp.default.cppStandard": "c++17",
+    "editor.fontFamily": "Ubuntu Mono",
+    "editor.fontSize": 17,
+    "editor.fontWeight": 500,
+
     "editor.bracketPairColorization.enabled": false,
     "update.mode": "manual",
 
     "workbench.colorCustomizations": {
         "editor.selectionBackground": "#13556471",
         "editor.selectionHighlightBackground": "#13556471",
-        "editor.background": "#0e121f6b"
+        "editor.background": "#0e121f6b",
+        "sideBar.background": "#1b1a27",
+        "sideBarSectionHeader.background": "#1b1a27",
+        "activityBar.background": "#1b1a27",
+        "titleBar.activeBackground": "#1b1a27",
     },
     "editor.tokenColorCustomizations": {
         "comments": "#125D0D",
@@ -48,6 +60,12 @@
             "scope": "keyword.operator.delete",
             "settings": {
                 "foreground": "#8f8f8f"
+            }
+        },
+        {
+            "scope": "keyword.operator.cast",
+            "settings": {
+                "foreground": "#afafaf"
             }
         },
         {
@@ -123,6 +141,5 @@
             }
         }
     ]
-    },
-    "editor.minimap.enabled": false,
+    }
 }
